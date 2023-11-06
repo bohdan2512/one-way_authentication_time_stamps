@@ -1,0 +1,24 @@
+#welcomeRoot {
+    background-color: #F0F0F0;
+    -fx-padding: 50px;
+    -fx-background-radius: 10px;
+}
+
+Label {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+Button {
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-background-color: #333333;
+    -fx-background-radius: 5px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 40px;
+}
+
+Button:hover {
+    -fx-background-color: #555555;
+}

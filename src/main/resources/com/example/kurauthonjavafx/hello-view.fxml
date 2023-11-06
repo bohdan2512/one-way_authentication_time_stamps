@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="615.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kurauthonjavafx.MainController">
+    <children>
+        <AnchorPane prefHeight="322.0" prefWidth="308.0" style="-fx-background-color: FFFFFF;">
+            <children>
+                <Text layoutX="117.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сторона А" wrappingWidth="72.3830394744873" />
+                <Text layoutX="10.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Мітка часу:" wrappingWidth="287.5830669403076" />
+                <Text layoutX="9.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Зашифроване повідомлення:" wrappingWidth="287.5830669403076" />
+                <Button layoutX="125.0" layoutY="192.0" mnemonicParsing="false" onAction="#btn1" style="-fx-background-color: #ff2213;" text="Передати" />
+            <TextField fx:id="area1" alignment="CENTER" editable="false" layoutX="76.0" layoutY="60.0" prefHeight="17.0" prefWidth="150.0" style="-fx-background-insets: 1;" />
+            <TextField fx:id="area2" editable="false" layoutX="41.0" layoutY="153.0" prefHeight="26.0" prefWidth="226.0" style="-fx-background-insets: 1;" />
+            <Button layoutX="-3.0" mnemonicParsing="false" onAction="#btn3" prefHeight="8.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-text-fill: black;" text="&lt;---" />
+            <TextField fx:id="area9" alignment="CENTER" layoutX="78.0" layoutY="111.0" prefHeight="26.0" prefWidth="150.0" style="-fx-background-insets: 1;" />
+                <Text layoutX="229.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результат:" wrappingWidth="57.98305320739746" />
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="315.0" prefHeight="322.0" prefWidth="308.0" style="-fx-background-color: FFFFFF;">
+            <children>
+                <Text layoutX="117.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сторона B" wrappingWidth="72.3830394744873" />
+                <Text layoutX="64.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Поточний час:" wrappingWidth="191.58306694030762" />
+                <Text layoutX="63.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Отримані зашифровані дані:" wrappingWidth="191.58306694030762" />
+                <Button layoutX="86.0" layoutY="257.0" mnemonicParsing="false" onAction="#btn2" prefHeight="4.0" prefWidth="146.0" style="-fx-background-color: #ff2213;" text="Пройти автентифікацію" />
+                <Text layoutX="64.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Передана мітка часу:" wrappingWidth="191.58306694030762" />
+                <Text layoutX="63.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статус часу:" wrappingWidth="72.3830394744873" />
+            <TextField fx:id="area3" alignment="CENTER" editable="false" layoutX="78.0" layoutY="57.0" style="-fx-background-insets: 1;" />
+            <TextField fx:id="area4" alignment="CENTER" editable="false" layoutX="80.0" layoutY="109.0" style="-fx-background-insets: 1;" />
+            <TextField fx:id="area5" editable="false" layoutX="81.0" layoutY="161.0" style="-fx-background-insets: 1;" />
+            <TextField fx:id="area6" alignment="CENTER" editable="false" layoutX="192.0" layoutY="189.0" prefHeight="0.0" prefWidth="70.0" style="-fx-background-insets: 1;" />
+            <Text layoutX="63.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статус ідентифікатора:" wrappingWidth="133.9830150604248" />
+            <TextField fx:id="area7" alignment="CENTER" editable="false" layoutX="193.0" layoutY="222.0" prefHeight="0.0" prefWidth="70.0" style="-fx-background-insets: 1;" />
+            <TextField fx:id="area8" alignment="CENTER" editable="false" layoutX="-21.0" layoutY="291.0" prefHeight="0.0" prefWidth="70.0" style="-fx-background-insets: 1;" />
+            </children>
+        </AnchorPane>
+      <Text layoutX="9.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ідентифікатор сторони B:" wrappingWidth="287.5830669403076" />
+    </children>
+</AnchorPane>

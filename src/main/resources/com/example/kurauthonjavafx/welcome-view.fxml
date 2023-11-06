@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="welcomeRoot" prefHeight="125.0" prefWidth="285.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kurauthonjavafx.WelcomeController">
+    <children>
+      <Button fx:id="infobutton" contentDisplay="CENTER" layoutX="98.0" layoutY="51.0" mnemonicParsing="false" onAction="#showinfo" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: ff2213;" text="Детальна фнформація" />
+        <Button fx:id="startButton" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleStartButtonAction" prefHeight="26.0" prefWidth="184.0" style="-fx-background-color: ff2213;" text="Демонстрація автентифікації" />
+      <Button fx:id="authorbutton" contentDisplay="CENTER" layoutX="169.0" layoutY="86.0" mnemonicParsing="false" onAction="#showAuthorInfo" prefHeight="13.0" prefWidth="102.0" style="-fx-background-color: ff2213;" text="Автор" />
+      <ImageView fitHeight="57.0" fitWidth="60.0" layoutX="220.0" layoutY="-57.0">
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="123.0" layoutX="-7.0" layoutY="35.0">
+         <image>
+            <Image url="@../../../morph.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="228.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../logo.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
